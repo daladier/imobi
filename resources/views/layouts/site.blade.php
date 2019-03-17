@@ -37,6 +37,10 @@
         </main>
     </div>
 
+    <footer>
+        @include('layouts._site._footer')
+    </footer>
+
     <script src="{{asset('lib/jquery/dist/jquery.js')}}"></script>
     <script src="{{asset('lib/materialize/dist/js/materialize.js')}}"></script>
     <script src="{{asset('js/init.js')}}"></script>
