@@ -41,7 +41,8 @@
         @include('layouts._site._footer')
     </footer>
 
-    <script src="{{asset('lib/jquery/dist/jquery.js')}}"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.js"></script>
+    <!-- <script src="{{asset('lib/jquery/dist/jquery.js')}}"></script> -->
     <script src="{{asset('lib/materialize/dist/js/materialize.js')}}"></script>
     <script src="{{asset('js/init.js')}}"></script>
 
