@@ -18,15 +18,17 @@
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet" type="text/css">
 
 </head>
-<body>
+<body id="app-layout">
     <div id="app">
         <header>
-            @include('layouts._site._nav')
+            @include('layouts._admin._nav')
         </header>
 
         <main class="py-4">
             @yield('content')
         </main>
+
+        @include('layouts._admin._footer')
     </div>
 
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
